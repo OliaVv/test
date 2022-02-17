@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="conteiner">
+        <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+        <nav>
+          <ul class="nav-menu list">
+            <li class="item"><a class="nav-link" href="./index.html">Студия</a></li>
+            <li class="item"><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="nav-link" href="./contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact list">
+          <li class="item">
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="page">
+      <section class="section">
+        <!-- Фильтри -->
+        <div class="conteiner">
+          <h2 hidden>Фильтры</h2>
+          <ul class="filters list">
+            <li class="item"><button class="filter" type="button">Все</button></li>
+            <li class="item"><button class="filter" type="button">Веб-сайты</button></li>
+            <li class="item"><button class="filter" type="button">Приложения</button></li>
+            <li class="item"><button class="filter" type="button">Дизайн</button></li>
+            <li class="item"><button class="filter" type="button">Маркетинг</button></li>
+          </ul>
+          <!-- Портфолио -->
+          <h2 hidden>Портфолио</h2>
+          <ul class="portfolio list">
+            <li class="item">
+              <a href=""><img src="./images/portfolio/img.jpg" alt="Технокряк" width="370" /></a>
+              <h3 class="list-title">Технокряк</h3>
+              <p class="list-text">Веб-сайт</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img
+                  src="./images/portfolio/img-1.jpg"
+                  alt="Постер New Orlean vs Golden Star"
+                  width="370"
+              /></a>
+              <h3 class="list-title">Постер New Orlean vs Golden Star</h3>
+              <p class="list-text">Дизайн</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/portfolio/img-2.jpg" alt="Ресторан Seafood" width="370"
+              /></a>
+              <h3 class="list-title">Ресторан Seafood</h3>
+              <p class="list-text">Приложение</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/portfolio/img-3.jpg" alt="Проект Prime" width="370"
+              /></a>
+              <h3 class="list-title">Проект Prime</h3>
+              <p class="list-text">Маркетинг</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/portfolio/img-4.jpg" alt="Проект Boxes" width="370"
+              /></a>
+              <h3 class="list-title">Проект Boxes</h3>
+              <p class="list-text">Приложение</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img
+                  src="./images/portfolio/img-5.jpg"
+                  alt="Inspiration has no Borders"
+                  width="370"
+              /></a>
+              <h3 class="list-title">Inspiration has no Borders</h3>
+              <p class="list-text">Веб-сайт</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/portfolio/img-6.jpg" alt="Издание Limited Edition" width="370"
+              /></a>
+              <h3 class="list-title">Издание Limited Edition</h3>
+              <p class="list-text">Дизайн</p>
+            </li>
+            <li class="item">
+              <a href=""><img src="./images/portfolio/img-7.jpg" alt="Проект LAB" width="370" /></a>
+              <h3 class="list-title">Проект LAB</h3>
+              <p class="list-text">Маркетинг</p>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/portfolio/img-8.jpg" alt="Growing Business" width="370"
+              /></a>
+              <h3 class="list-title">Growing Business</h3>
+              <p class="list-text">Приложение</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="conteiner">
+        <a class="logo-footer" href="./index.html"><span class="accent">Web</span>Studio</a>
+        <address class="address">
+          <ul class="list">
+            <li>
+              <a
+                class="adr-link"
+                href="https://goo.gl/maps/gPNB1iQAhUUWyKDR6"
+                target="_blank"
+                rel="noreferrer noopener"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+              >
+            </li>
+            <li><a class="link-smart" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="link-smart" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
